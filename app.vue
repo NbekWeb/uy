@@ -1,7 +1,7 @@
 <script setup>
 import { ref } from "vue";
 
-const openModal = ref(true);
+const openModal = ref(false);
 
 const toggleOpen = () => {
   openModal.value = !openModal.value;
