@@ -13,8 +13,6 @@ const toggleOpen = () => {
     <MainHead @openModal="toggleOpen" />
     <NuxtPage />
     <MainFoot />
-    <MainFoot />
-    <MainFoot />
     <div
       :class="['modal flex justify-between ', { open: openModal }]"
       class="modal"
